@@ -27,6 +27,7 @@ public class Home extends AppCompatActivity {
     public static final String licenseNo = "licenseNo";
     private static final String LOGIN_URL = "http://softizon.tk/Final/getPoints.php";
     //test
+    String bb = "hna";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
