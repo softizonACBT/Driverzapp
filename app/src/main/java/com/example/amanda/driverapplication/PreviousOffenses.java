@@ -46,7 +46,7 @@ public class PreviousOffenses extends AppCompatActivity {
     }
 
     public void extractJSON() {
-
+//generating json array
 
         try {
             JSONObject jsonObject = new JSONObject(myJSONString);
@@ -120,7 +120,7 @@ public class PreviousOffenses extends AppCompatActivity {
     }
 
     private void showData() {
-
+//json array elements to textviews
         try {
             JSONObject jsonObject = users.getJSONObject(TRACK);
 
@@ -139,5 +139,5 @@ public class PreviousOffenses extends AppCompatActivity {
         }
         showData();
     }
-
+// review yasitha, amanda
 }

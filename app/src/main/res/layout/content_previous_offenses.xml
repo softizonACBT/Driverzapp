@@ -27,7 +27,8 @@
         android:id="@+id/imageButton5"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/bak" />
+        android:background="@drawable/bak"
+        android:visibility="invisible" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -87,8 +88,8 @@
         android:layout_alignParentLeft="true" />
 
     <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="60dp"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
         android:id="@+id/imageButton9"
         android:layout_above="@+id/imageButton5"
         android:layout_toStartOf="@+id/imageButton5"
@@ -97,8 +98,8 @@
         android:onClick="movePrev" />
 
     <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="60dp"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
         android:id="@+id/imageButton10"
         android:layout_alignTop="@+id/imageButton9"
         android:layout_toEndOf="@+id/imageButton5"

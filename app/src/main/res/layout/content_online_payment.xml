@@ -98,12 +98,4 @@
         android:visibility="invisible"
         android:onClick="onPPay" />
 
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/imageButton12"
-        android:background="@drawable/bak"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
 </RelativeLayout>

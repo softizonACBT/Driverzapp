@@ -68,7 +68,7 @@ public class PaymentReminders extends AppCompatActivity {
         final String licNO = getIntent().getStringExtra("licNo");
         // licenseNumber = getIntent().getStringExtra("a");
         lnl = licNO;
-
+//check for crimes
         StringRequest stringRequest = new StringRequest(Request.Method.POST, cfURL,
                 new Response.Listener<String>() {
                     @Override

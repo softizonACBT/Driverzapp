@@ -79,7 +79,7 @@ public class PaymentHistory extends AppCompatActivity {
 
             @Override
             protected String doInBackground(String... params) {
-
+//json value updater
                 String uri = params[0];
 
                 BufferedReader bufferedReader = null;
@@ -126,7 +126,7 @@ public class PaymentHistory extends AppCompatActivity {
     }
 
     private void showData() {
-
+//json array items to textviews
         try {
             JSONObject jsonObject = users.getJSONObject(TRACK);
 
@@ -148,4 +148,5 @@ public class PaymentHistory extends AppCompatActivity {
         }
         showData();
     }
+    //final review amanda completed, php modified
 }

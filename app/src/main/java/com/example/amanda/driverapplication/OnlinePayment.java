@@ -67,6 +67,7 @@ public class OnlinePayment extends AppCompatActivity {
     private static final String refno = "refno";
     private static final String lno = "licenseNumber";
     private static final String ptype = "ptype";
+    //network urls
 
     private static final String CONFIG_ENVIRONMENT = PayPalConfiguration.ENVIRONMENT_SANDBOX;
     // note that these credentials will differ between live & sandbox environments.
@@ -75,7 +76,7 @@ public class OnlinePayment extends AppCompatActivity {
     private static PayPalConfiguration config = new PayPalConfiguration()
             .environment(CONFIG_ENVIRONMENT)
             .clientId(CONFIG_CLIENT_ID);
-
+//paypal services
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,6 +106,7 @@ public class OnlinePayment extends AppCompatActivity {
         final String licNO = getIntent().getStringExtra("licNo");
         // licenseNumber = getIntent().getStringExtra("a");
         lnl = licNO;
+        //check crimes updated amanda
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, cfURL,
                 new Response.Listener<String>() {
@@ -392,7 +394,7 @@ public class OnlinePayment extends AppCompatActivity {
     }
 
     private void payfinebymoney() {
-
+//update database values completed dilshan
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, paidURL,
                 new Response.Listener<String>() {
@@ -548,5 +550,5 @@ public class OnlinePayment extends AppCompatActivity {
         stopService(new Intent(this, PayPalService.class));
         super.onDestroy();
     }
-
+//review dilshan, yasitha
 }

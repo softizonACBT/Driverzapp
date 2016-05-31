@@ -80,6 +80,7 @@ public class Splash extends AppCompatActivity {
     public void nextNav(View v) {
         Intent intent = new Intent(this, Welcome.class);
         startActivity(intent);
+        // commited for checking purposes dilshan
 
         // Intent intent = new Intent(Intent.ACTION_INSERT);
         // intent.setType("vnd.android.cursor.item/event");
@@ -108,4 +109,5 @@ public class Splash extends AppCompatActivity {
 
         // check this https://www.simplifiedcoding.net/android-json-tutorial-to-get-data-from-mysql-database/
     }
+    // final review yasitha
 }

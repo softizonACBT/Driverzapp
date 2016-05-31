@@ -43,6 +43,7 @@ public class Home extends AppCompatActivity {
     }
 
     private void points() {
+        //update client points received - amanda
         final String licNumb = getIntent().getStringExtra("licNo");
 
 
@@ -87,6 +88,7 @@ public class Home extends AppCompatActivity {
     }
 
     public void nextAct(View v) {
+        //changes made yasitha
         // Toast.makeText(Home.this, "You have collected " + points + " out of 8 points avaialable", Toast.LENGTH_LONG).show();
         //Toast.makeText(Home.this, "You have collected " + points + " out of 8 points avaialable", Toast.LENGTH_LONG).show();
         //Toast.makeText(Home.this, "You have collected " + points + " out of 8 points avaialable", Toast.LENGTH_LONG).show();
@@ -144,4 +146,6 @@ public class Home extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    //review amanda
 }

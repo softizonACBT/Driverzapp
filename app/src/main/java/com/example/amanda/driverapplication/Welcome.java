@@ -28,6 +28,7 @@ public class Welcome extends AppCompatActivity {
     public static final String KEY_USERNAME = "regID";
     private static final String LOGIN_URL = "http://softizon.tk/Final/clogin.php";
 
+    //network URls for php files
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +59,7 @@ public class Welcome extends AppCompatActivity {
 
         licNo = un.getText().toString().trim();
 
-
+//initial code - amanda, moderations yasitha
         StringRequest stringRequest = new StringRequest(Request.Method.POST, LOGIN_URL,
                 new Response.Listener<String>() {
                     @Override
@@ -110,4 +111,5 @@ public class Welcome extends AppCompatActivity {
         this.finishAffinity();
         System.exit(0);
     }
+    //final review amanda
 }

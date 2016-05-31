@@ -6,6 +6,7 @@ import android.widget.ImageView;
 
 public class Points extends AppCompatActivity {
     ImageView im;
+    //replacing class for PieGraph
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,4 +61,5 @@ public class Points extends AppCompatActivity {
         }
 
     }
+    //review amanda
 }
