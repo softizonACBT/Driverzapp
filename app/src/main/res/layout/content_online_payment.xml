@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.amanda.driverapplication.OnlinePayment"
+    tools:showIn="@layout/activity_online_payment"
+    android:background="@drawable/banssxz">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/banzi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Crime Commited:"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Crime recorded"
+        android:id="@+id/txtcme12"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fee Charged:"
+        android:id="@+id/textView63"
+        android:layout_below="@+id/txtcme12"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Crime recorded"
+        android:id="@+id/txfz23"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView63"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DueDate"
+        android:id="@+id/textView83"
+        android:layout_below="@+id/txfz23"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Crime recorded"
+        android:id="@+id/txtdd21"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView83"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView6"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/txtdd21"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/notick" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton11"
+        android:background="@drawable/op"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:onClick="onPPay" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton12"
+        android:background="@drawable/bak"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

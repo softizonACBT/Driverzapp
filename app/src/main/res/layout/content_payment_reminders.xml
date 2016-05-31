@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.amanda.driverapplication.PaymentReminders"
+    tools:showIn="@layout/activity_payment_reminders"
+    android:background="@drawable/banssxz">
+    android:background="@drawable/banssxz">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/banrem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Crime Commited:"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Outstanding Payments"
+        android:id="@+id/txtcme12"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fee Charged:"
+        android:id="@+id/textView63"
+        android:layout_below="@+id/txtcme12"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Outstanding Payments"
+        android:id="@+id/txfz23"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView63"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DueDate"
+        android:id="@+id/textView83"
+        android:layout_below="@+id/txfz23"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Outstanding Payments"
+        android:id="@+id/txtdd21"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView83"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView7"
+        android:background="@drawable/btnalarm"
+        android:layout_above="@+id/imageButton13"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="39dp"
+        android:layout_alignParentStart="true"
+        android:onClick="addreminder"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton13"
+        android:background="@drawable/bak"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
